@@ -1,0 +1,81 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+% \newfontfamily\headingfont[]{Gill Sans MT}
+% \titleformat*{\section}{\LARGE\headingfont}
+% \titleformat*{\subsection}{\Large\headingfont}
+% \titleformat*{\subsubsection}{\large\headingfont}
+% \renewcommand{\maketitlehooka}{\headingfont}
+
+\title{\textbf{\textsc{Research Statement}}}
+\author{Guillaume Lema\^itre}
+\date{\today}
+
+\setlength{\topmargin}{-10mm}
+\setlength{\textwidth}{7.in}
+\setlength{\oddsidemargin}{-8mm}
+\setlength{\textheight}{9in}
+\setlength{\footskip}{1in}
+
+\begin{document}
+
+%\definecolor{myblack}{rgb}{.3,.3,.3}
+%\color{myblack}
+\fontsize{12}{15}
+\selectfont
+\maketitle
+
+\section{\textsc{Current Research}}
+
+\subsection{PhD Degree}
+
+My research focuses on several aspects of machine learning and pattern recognition applied to medical imaging, more precisely in the development of computer-aided diagnosis (CAD) systems.
+The interest of theses systems is to aid clinicians at assessing cancers during their daily screening and act accordingly. 
+During my PhD, my primary topic of interest has been related to detect prostate cancers using multi-parametric MRI.
+However, in conjunction with other scientists in our group, we have been extended these works for skin cancers detection in dermatologic images, breast cancers detection in US images, and retinal diseases detection in OCT images.
+
+Consequently, I investigate different topics in accordance with this problematic: (i) I work on normalization methods for multi-parametric MRI to overcome the inter-patient intensity variations in order to enforce the repeatability and thus achieve more robust classification; (ii) I also tackle the curse of imbalanced dataset which commonly occur in medical data (cancers \textit{vs.} healthy cases); (iii) I investigate different approaches regarding classification (i.e., sparse learning, Bag-of-Words representation, etc.).
+
+\subsection{Aside Activities connected with the Current Research}
+
+In addition, I also contributed in some activities related to the research activities presented in the previous section.
+
+\subsubsection{Initiative for Collaborative Computer Vision Benchmarking}
+
+Common datasets and benchmarks is a recurrent problem in medical imaging.
+In this regard, our group has launched the Initiative for Collaborative Computer Vision Benchmarking (I2CVB)\footnote{\url{http://visor.udg.edu/i2cvb/}} in order to mainly share data and source code related to our topics of interest.
+
+\subsubsection{Open Source}
+
+All the different code developed in conjunction with the different research topics aforementioned are made available:
+
+\begin{itemize}
+\item Retinal diseases detection - \url{https://goo.gl/igF4vy}
+\item Prostate cancers detection - \url{https://goo.gl/kZ1hTX}
+\item Skin cancers detection - \url{https://goo.gl/bPLhlV}
+\end{itemize}
+
+\subsubsection{Master in Business Innovation and Technology Management}
+
+Besides my PhD, I carried out a Master in Business Innovation and Technology Management.
+My Master thesis focused on the technology transfer and more precisely on the valorisation of CAD technology in the Health Care Sector.
+
+\section{\textsc{Future Research}} 
+
+Deep-learning made a breakthrough in machine learning, by putting successfully into practise the deep neural-networks, which was not a given since its creation in the late 80's. 
+Indeed, the complexity of the architecture of these networks has always been their major drawback.
+In the past decade, this issue has finally been addressed by the development of new hardware capabilities, making possible the optimization of these networks.
+However, the medical imaging community did not benefit yet of the full possibilities provided by these methods.
+As an example, the first workshop focusing on deep-learning in medical imaging will be held at the 2015 MICCAI conference.
+In an effort to be part of this exciting rise, I would like to explore, investigate, innovate, and apply the deep-learning tools in the ongoing medical imaging domains.
+%In an effort to be part of this exciting rise, the team of medical imaging from the LE2I laboratory would like to explore, investigate, innovate, and apply the deep-learning tools in the ongoing medical imaging domains.
+%Thus, the focus will be to deploy these new tools for CAD systems dedicated to retinal diseases, Alzheimer disease, prostate cancer, breast cancer, and melanoma detection, which are the main topics tackled in our group.
+%More concretely, a work station/server has been purchase recently and the GPU will be upgrade the specification of the machine to allow the group to investigate the previous aforementioned topics. 
+%Python will be the primary language used, with the multiple libraries available for deep-learning (e.g., Caffe, cuda-convnet2, etc.).
+%CUDA C/C++ will be used to implement low-level architecture of the networks if needed.
+
+\end{document}
