@@ -35,14 +35,20 @@
 
 My research focuses on several aspects of machine learning and pattern recognition applied to medical imaging, more precisely in the development of computer-aided diagnosis (CAD) systems.
 The interest of theses systems is to aid clinicians at assessing cancers during their daily screening and act accordingly. 
-During my PhD, my primary topic of interest has been related to detect prostate cancers using multi-parametric MRI.
-However, in conjunction with other scientists in our group, we have been extended these works for skin cancers detection in dermatologic images, breast cancers detection in US images, and retinal diseases detection in OCT images.
+During my PhD, my primary topic of interest has been related to prostate cancer detection using multi-parametric MRI.
+However, in conjunction with other scientists in our group, we have extended these works for skin cancer detection in dermatologic images, breast cancer detection in US images, and retinal diseases detection in OCT images.
 
-Consequently, I investigate different topics in accordance with this problematic: (i) I work on normalization methods for multi-parametric MRI to overcome the inter-patient intensity variations in order to enforce the repeatability and thus achieve more robust classification; (ii) I also tackle the curse of imbalanced dataset which commonly occur in medical data (cancers \textit{vs.} healthy cases); (iii) I investigate different approaches regarding classification (i.e., sparse learning, Bag-of-Words representation, etc.).
+Consequently, I investigate different topics in accordance with these problems: 
+
+\begin{description}
+\item[Normalization of the multi-parametric MRI] I investigate the possibility to use a Rician \textit{a priori} instead of using the $z$-score. Currently, I am investigating the normalization of DCE-MRI data in time as well as in intensity. These normalization overcome the inter-patient variations in order to achieve a robust classification.
+\item[Tackling the problem of imbalanced dataset] Imbalanced dataset is a common problem encountered in medical imaging (cancer \textit{vs.} healthy cases). I make a comparison of the current state-of-the-art methods and applied them for the problem of melanoma cancer detection. Currently, I am investigating designing a novel way to generate samples by including metric learning in the previous known over-sampling methods.
+\item[Design of flexible machine learning frameworks] I design flexible machine learning frameworks which I applied to different medical image analysis problems such as prostate cancer detection, skin cancer detection, and retinal disease detection. More precisely, I investigate the influence of pre-processing on the classification performance to detect diabetic retinopathy. I also work on the study of well known computer vision features (LBP, GLCM, SIFT, etc.) to incorporate them in CAD system for the cancer detection. I also investigate the influence of different feature projection such as sparse learning or bag-of-words representation.
+\end{description}
 
 \subsection{Aside Activities connected with the Current Research}
 
-In addition, I also contributed in some activities related to the research activities presented in the previous section.
+In addition, I also contribute in some aside activities related to the research activities presented in the previous section.
 
 \subsubsection{Initiative for Collaborative Computer Vision Benchmarking}
 
@@ -55,13 +61,13 @@ All the different code developed in conjunction with the different research topi
 
 \begin{itemize}
 \item Retinal diseases detection - \url{https://goo.gl/igF4vy}
-\item Prostate cancers detection - \url{https://goo.gl/kZ1hTX}
-\item Skin cancers detection - \url{https://goo.gl/bPLhlV}
+\item Prostate cancer detection - \url{https://goo.gl/kZ1hTX}
+\item Skin cancer detection - \url{https://goo.gl/bPLhlV}
 \end{itemize}
 
 \subsubsection{Master in Business Innovation and Technology Management}
 
-Besides my PhD, I carried out a Master in Business Innovation and Technology Management.
+During my PhD, I carried out an extra Master in Business Innovation and Technology Management.
 My Master thesis focused on the technology transfer and more precisely on the valorisation of CAD technology in the Health Care Sector.
 
 \section{\textsc{Future Research}} 
@@ -70,8 +76,9 @@ Deep-learning made a breakthrough in machine learning, by putting successfully i
 Indeed, the complexity of the architecture of these networks has always been their major drawback.
 In the past decade, this issue has finally been addressed by the development of new hardware capabilities, making possible the optimization of these networks.
 However, the medical imaging community did not benefit yet of the full possibilities provided by these methods.
-As an example, the first workshop focusing on deep-learning in medical imaging will be held at the 2015 MICCAI conference.
-In an effort to be part of this exciting rise, I would like to explore, investigate, innovate, and apply the deep-learning tools in the ongoing medical imaging domains.
+As an example, the first workshop focusing on deep-learning in medical imaging was held at the 2015 MICCAI conference.
+In an effort to be part of this exciting rise, I would like to explore, investigate, innovate, and apply the deep-learning tools in the ongoing medical imaging domains. More precisely, there is potential applications for prostate segmentation as well as prostate cancer detection.
+
 %In an effort to be part of this exciting rise, the team of medical imaging from the LE2I laboratory would like to explore, investigate, innovate, and apply the deep-learning tools in the ongoing medical imaging domains.
 %Thus, the focus will be to deploy these new tools for CAD systems dedicated to retinal diseases, Alzheimer disease, prostate cancer, breast cancer, and melanoma detection, which are the main topics tackled in our group.
 %More concretely, a work station/server has been purchase recently and the GPU will be upgrade the specification of the machine to allow the group to investigate the previous aforementioned topics. 
